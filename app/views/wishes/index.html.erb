@@ -1,0 +1,25 @@
+<section id="banner">
+	<h1> Life is Short </h1>
+	<h1> Trak Your Wish Today! </h1>
+</section>
+
+<section id="wish">
+	<%= form_for(@wish) do |w|%>
+	<p>
+		<%= w.text_field :content, :value=>'I wish...' %>
+		<%=w.submit  'Trak My Wish',:class=>'button orange'%>
+	</p>
+	<%end%>
+</section>
+
+<section id="info">
+	<p>
+		WishTrak is an online community to track wishes. People here wish:
+	</p>
+</section>
+
+<section id="wish_cloud">
+	<p>
+		
+	</p>
+</section>
