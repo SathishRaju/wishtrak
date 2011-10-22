@@ -1,6 +1,7 @@
 class WishesController < ApplicationController
   def index
     @wish = Wish.new
+    @time = Time.now
   end
   
 
