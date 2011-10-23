@@ -205,8 +205,8 @@ td { vertical-align: top; }
 /* ==|==. primary styles =====================================================
    Author:
    ========================================================================== */
-$nav_bg: #c0eaf4 url('section_bg.png');
-$body_bg_color: #eeeee4 url('/assets/body_bg.png') repeat;
+$nav_bg: #c0eaf4 url('alert-overlay.png'), url('noise.png');
+$body_bg_color: #eeeee4 url('body_bg.png') repeat;
 $text_color :#444;
 
 
@@ -275,6 +275,11 @@ header
 					&.active, &:hover
 					{
 						background:$nav_bg;
+						-moz-webkit-box-shadow: 0 0 2px #c0eaf4;
+						   -moz-box-shadow: 0 0 2px #c0eaf4;
+						     -o-box-shadow: 0 0 2px #c0eaf4;
+						        box-shadow: 0 0 2px #c0eaf4;
+						
 					}
 				}
 				
